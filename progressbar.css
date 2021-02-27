@@ -1,0 +1,134 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    /* border-spacing: border; */
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container
+{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+
+}
+.container h1
+{
+    text-align: center;
+    
+}
+h2{
+   margin-top: 35px;
+}
+.bar
+{
+    display: inline-block;
+    width: 500px;
+    height: 9px;
+    /* border: 2px solid green; */
+    margin: 45px;
+    border-radius: 23px;
+    animation: saisri 3s infinite;
+}
+img
+{ 
+    width: 100px;
+    height: 100px;
+    
+}
+#box
+{
+   display: flex;
+}
+#python 
+{
+    height: 9px;
+    width:500px;
+    display: block;
+    background-color:  green;
+    animation: python 3s infinite;
+}
+@keyframes python
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 80%;
+    }
+}
+#C
+{
+    height: 9px;
+    width:500px;
+    display: block;
+    background-color: green;
+    animation: c 2s infinite;
+}
+@keyframes c
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+#html
+{
+    height: 9px;
+    width:500px;
+    display: block;
+    background-color: green;
+    animation: html 2s infinite;
+}
+@keyframes html
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 80%;
+        
+    }
+}
+#css 
+{
+    height: 9px;
+    width:500px;
+    display: block;
+    background-color: green;
+    animation: css 2s infinite;
+}
+@keyframes css
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+#box:hover
+{
+    transform: scale(1.05);
+    /* position: absolute; */
+    /* width: 738px; */
+    cursor: pointer;
+}
